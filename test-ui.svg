@@ -1,0 +1,17 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600">
+  <rect width="900" height="600" fill="#f3f4f6"></rect>
+  <rect x="0" y="0" width="900" height="56" fill="#1f2937"></rect>
+  <text x="24" y="36" fill="white" font-size="20">Acme Dashboard</text>
+  <rect x="200" y="110" width="500" height="400" rx="12" fill="white" stroke="#d1d5db"></rect>
+  <text x="240" y="155" font-size="24" fill="#111827">Sign in</text>
+  <text x="240" y="205" font-size="15" fill="#374151">Email</text>
+  <rect x="240" y="220" width="420" height="44" rx="5" fill="white" stroke="#9ca3af"></rect>
+  <text x="254" y="248" font-size="16" fill="#6b7280">user@example.com</text>
+  <text x="240" y="300" font-size="15" fill="#374151">Password</text>
+  <rect x="240" y="315" width="420" height="44" rx="5" fill="white" stroke="#9ca3af"></rect>
+  <text x="254" y="343" font-size="16" fill="#6b7280">••••••••</text>
+  <rect x="240" y="385" width="420" height="48" rx="5" fill="#2563eb"></rect>
+  <text x="450" y="415" font-size="17" text-anchor="middle" fill="white">Sign in</text>
+  <text x="240" y="466" font-size="15" fill="#dc2626">Error: Unable to authenticate user</text>
+</svg>

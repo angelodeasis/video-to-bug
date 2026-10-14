@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Local recordings and generated output
+samples/*
+!samples/.gitkeep
+output/*
+!output/.gitkeep
+
+# Local environment and editor files
+.env
+.DS_Store
+.vscode/
