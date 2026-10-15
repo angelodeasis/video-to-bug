@@ -15,3 +15,7 @@ output/*
 .env
 .DS_Store
 .vscode/
+# Python packaging artifacts
+*.egg-info/
+build/
+dist/

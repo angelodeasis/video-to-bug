@@ -1,0 +1,20 @@
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "video-to-bug"
+version = "0.1.0"
+description = "A local-first CLI for turning screen recordings into evidence-based software bug reports."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "Pillow>=10.0",
+]
+
+[project.scripts]
+video-to-bug = "video_to_bug.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
